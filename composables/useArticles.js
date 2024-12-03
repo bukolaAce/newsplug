@@ -20,7 +20,9 @@ export function useArticles() {
       console.error("Error fetching data:", err);
       error.value = "An error occurred while fetching data.";
     } finally {
-      loading.value = false; // End loading state
+      setTimeout(() => {
+        loading.value = false; // End loading state after 1 minute
+      }, 4000); //
     }
   };
 

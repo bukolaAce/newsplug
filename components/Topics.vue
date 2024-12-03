@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="card bg-[#15184d] md:w-96 shadow-xl">
+    <div class="card bg-[#15184d] md:w-96 shadow-xl ">
       <figure>
         <img :src="`${item.urlToImage}`" alt="image" />
       </figure>

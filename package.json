@@ -12,13 +12,13 @@
   "dependencies": {
     "axios": "^1.7.7",
     "nuxt": "^3.13.0",
-    "vue": "latest",
-    "daisyui": "^3",
-    "vue-router": "latest"
+    "vue": "latest"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.45",
-    "tailwindcss": "^3.4.11"
+    "daisyui": "^4.12.10",
+    "postcss": "^8.4.44",
+    "tailwindcss": "^3.4.10"
   }
 }
